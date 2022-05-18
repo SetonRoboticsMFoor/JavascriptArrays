@@ -1,6 +1,6 @@
 const people = [];
 
-while (true) {
+while (people.length < 10) {
 
     let tempName = prompt("Enter a name", "Type name here");
     people.push(tempName);
