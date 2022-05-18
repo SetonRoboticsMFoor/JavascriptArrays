@@ -29,6 +29,13 @@ while (people.length < 10) {
 //      var lastElement = arrayName.pop();
 // shift() removes the first element
 //      arrayName.shift();
-// splice() adds elements and then removes
-// splice(1,2,"mary") would add Mary after index 1 and remove 2 elements after it
-// the second argument can be set to 0 if you do not want to remove anything
+// splice() adds and removes exising elements:
+//      splice(1,2,"mary") would add Mary after index 1 and remove 2 elements after
+//      the inserted element
+//      the second argument can be set to 0 if you do not want to remove anything
+//      splice(2,0, "Todd);
+//      You can also remove elements without adding any
+//      splice(2,2); would remove two elements after index 2
+// slice will copy elements at a selected index into a new array
+//      const newArray  = oldArray.slice(2,4); will take elements at
+//      index 2 and 3 and copy them into a new array called newArray
